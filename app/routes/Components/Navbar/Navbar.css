@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 .nav-main-container{
+  background-color:
+  #f2f2ee;
+  padding: 1rem;
+  height: 3rem;
+  width: 100%;
+  position: fixed;
+  top:0;
+}
+.nav-inner-container{
+  background-color: #ffffff;
+  /* margin: 1rem 1rem; */
+}
+.nav-inner-container ul{
   display: flex;
+  justify-content: space-between;
   
+  
+}
+.nav-inner-container li{
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.logout-btn{
+  /* height: 20px; */
+  padding: 10px;
+  border: none;
+  background-color:#f2f2ee;
+}
+.logout-btn:hover{
+  background-color: #dfdfd8;
 }

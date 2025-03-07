@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "d7d419e3287d56aae487785fc6160de5"
-application_url = "https://specialty-federation-turning-candles.trycloudflare.com"
+application_url = "https://submissions-communicate-hayes-vinyl.trycloudflare.com"
 embedded = true
 name = "account-dev"
 handle = "account-dev"
@@ -27,9 +27,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://specialty-federation-turning-candles.trycloudflare.com/auth/callback",
-  "https://specialty-federation-turning-candles.trycloudflare.com/auth/shopify/callback",
-  "https://specialty-federation-turning-candles.trycloudflare.com/api/auth/callback"
+  "https://submissions-communicate-hayes-vinyl.trycloudflare.com/auth/callback",
+  "https://submissions-communicate-hayes-vinyl.trycloudflare.com/auth/shopify/callback",
+  "https://submissions-communicate-hayes-vinyl.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
